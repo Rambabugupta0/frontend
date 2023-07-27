@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+    .mobile-menu {
+      display: none;
+    }
+  }
+  
+  /* Show desktop-menu only on larger screens (screen width 768px and above) */
+  @media (max-width: 767px) {
+    .desktop-menu {
+      display: none;
+    }
+  }
